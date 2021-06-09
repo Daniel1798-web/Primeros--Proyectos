@@ -1,0 +1,56 @@
+.canvas1
+{
+    border: 10px solid rgb(77, 52, 52);
+    border-radius: 5%;
+    background: white;
+}
+
+h1
+{
+color: white;
+}
+
+body
+{
+    background-image: url(fondo.png);
+}
+
+p
+{
+    color: white;
+}
+
+input
+{
+    background-image: url(fondo.png);
+    color: white;
+
+}
+
+input:hover
+{
+    cursor: pointer;
+ 
+}
+
+a
+{ 
+    color: none;
+}
+
+a:hover
+{
+    cursor: pointer;
+}
+
+canvas:hover
+{
+    cursor:url(goma.png);
+}
+
+.imagen
+{
+    width: 70px;
+    
+    border-radius: 45%;
+}

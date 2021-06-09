@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="canvas.css">
+    <title>Tu cuadro</title>
+</head>
+<body>
+    <h1>Dibuja tu propio cuadro</h1>
+    <p>Elige un color   Elige el ancho
+        <br />
+       
+        <input type="color" id="color">   <input type="range" min="1" max="100" id="ancho">  <img  class="imagen" id="borrador"     src="borrador.png"> 
+    </p>
+
+
+    <canvas class="canvas1" width="700"  height="500"  id="area_de_dibujo"></canvas>
+
+ <p>Asi queda tu dibujo :)
+     <br />
+     <input type="button" id="descargar" value= descargar>
+
+ </p>
+ 
+</div>
+
+    <script type="text/javascript" src="canvas.js"></script>
+</body>
+</html>
